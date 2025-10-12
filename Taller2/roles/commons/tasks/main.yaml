@@ -1,2 +1,4 @@
 - name: Actualizamos el sistema
-  apt: 
+  ansible.builtin.apt:
+    update_cache: yes
+    upgrade: yes 
